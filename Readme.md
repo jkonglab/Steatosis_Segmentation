@@ -15,8 +15,7 @@ Three python files are included, `steatosis2.py`, `steatosis2_Predict.py` and `F
 
 ## Folders instruction
 
-1. logs: In the logs folder, the trained models are stored.
-The model path is /labs/konglab/Steatosis_Seg_DP_xiaoyuan/logs/steatosis20180624T1732/, three models are included, namely, `mask_rcnn_steatosis_0049.h5`, `mask_rcnn_steatosis_0060.h5` and `mask_rcnn_steatosis_0069.h5`.
+1. logs: In the logs folder, the trained models are stored, namely, `mask_rcnn_steatosis_0049.h5`, `mask_rcnn_steatosis_0060.h5` and `mask_rcnn_steatosis_0069.h5`.
 The number of 0049,0060,0069 means the trained epoch, the latest one is 0069.
 
 2. mrcnn: In the mrcnn folder, the details of model architecture is built and some config information is required. The filename that has number 2 meaning the version, the larger the number is, the latest the version is. Normally, we will use the latest version, in this case, we use all files that contain number 2, that is `model2.py`, `visualize2.py`, while those with _Copy1 are the copy of corresponding files before revisions.  The `model2-Copy1.py` is for the steatosis prediction that takes testing cases stored in a folder rather than an image.
