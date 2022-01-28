@@ -32,3 +32,7 @@ The number of 0049,0060,0069 means the trained epoch, the latest one is 0069.
 
 ## Reference
 [Xiaoyuan Guo, Fusheng Wang, George Teodoro, Alton Farris, Jun Kong, “Liver Steatosis Segmentation with Deep Learning Methods,” IEEE International Symposium on Biomedical Imaging: From Nano to Macro (ISBI), pp.24-27, Venice, Italy, April 2019.](https://ieeexplore.ieee.org/document/8759600)
+
+## License
+This tool is available under the GNU General Public License (GPL) (https://www.gnu.org/licenses/gpl-3.0.en.html) and the LGPL (https://www.gnu.org/licenses/lgpl-3.0.en.html).
+
